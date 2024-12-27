@@ -1,0 +1,1116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.homepage-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.homepage-desktop .intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 0px 156px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .header {
+    display: flex;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--lightest-blue);
+}
+
+.homepage-desktop .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Nunito", Helvetica;
+    font-weight: 500;
+    color: var(--text-light);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .div {
+    position: relative;
+    width: fit-content;
+    font-family: "Nunito", Helvetica;
+    font-weight: 700;
+    color: var(--orange);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 700;
+    color: var(--orange);
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .p {
+    position: relative;
+    align-self: stretch;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: #6b6b6b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .tutoring-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    padding: 60px 156px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-image: url(./img/waterfall-background.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-blend-mode: darken;
+    background-color: #00000066;
+}
+
+.homepage-desktop .frame-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: var(--text-light);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .frame-6 {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .frame-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 49px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.homepage-desktop .textbox {
+    display: flex;
+    min-width: 217px;
+    max-height: 823px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--grey);
+    border-radius: 12px;
+}
+
+.homepage-desktop .hello-parents-i-m {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: #6b6b6b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .span {
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: #6b6b6b;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+
+.homepage-desktop .text-wrapper-5 {
+    font-family: "Nunito", Helvetica;
+    font-weight: 600;
+}
+
+.homepage-desktop .frame-8 {
+    display: flex;
+    flex-direction: column;
+    width: 353px;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .frame-9 {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .img {
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.homepage-desktop .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: #434343;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .frame-10 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .primary-button {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: relative;
+    background-color: var(--orange);
+    border-radius: 12px;
+}
+
+.homepage-desktop .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    font-family: "Nunito", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .headshot {
+    position: relative;
+    width: 100%;
+    max-width: 384px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.homepage-desktop .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 158px;
+    position: relative;
+    background-color: var(--lightest-blue);
+    border-radius: 12px;
+}
+
+.homepage-desktop .frame-11 {
+    display: flex;
+    width: 784px;
+    height: 195px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.homepage-desktop .frame-12 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 194px;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .img-2 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.homepage-desktop .text-wrapper-8 {
+    position: relative;
+    width: 213px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: var(--text-dark);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .frame-13 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .first-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .title-frame {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 156px;
+    position: relative;
+}
+
+.homepage-desktop .frame-15 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .text-wrapper-9 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .frame-16 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 48px 48px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .subject {
+    display: flex;
+    width: 171.2px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    background-color: #ff6f61;
+    border-radius: 12px;
+    opacity: 0.9;
+}
+
+.homepage-desktop .text-wrapper-10 {
+    position: relative;
+    flex: 1;
+    font-family: "Nunito", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .algebra-i-II-wrapper {
+    background-color: #f0ad4e;
+    display: flex;
+    width: 171.2px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    border-radius: 12px;
+    opacity: 0.9;
+}
+
+.homepage-desktop .subject-2 {
+    background-color: #5cb85c;
+    display: flex;
+    width: 171.2px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    border-radius: 12px;
+    opacity: 0.9;
+}
+
+.homepage-desktop .subject-3 {
+    background-color: #5bc0de;
+    display: flex;
+    width: 171.2px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    border-radius: 12px;
+    opacity: 0.9;
+}
+
+.homepage-desktop .calculus-beyond-wrapper {
+    background-color: #5e35b1;
+    display: flex;
+    width: 171.2px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    border-radius: 12px;
+    opacity: 0.9;
+}
+
+.homepage-desktop .frame-17 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .frame-18 {
+    display: flex;
+    flex-direction: column;
+    min-width: 165px;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.homepage-desktop .frame-19 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .subject-tab {
+    display: flex;
+    width: 280px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--white);
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: var(--orange);
+
+}
+
+.homepage-desktop .subject-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.homepage-desktop .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    font-family: "Nunito", Helvetica;
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: Truepx;
+}
+
+.homepage-desktop .text-wrapper-12 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Nunito", Helvetica;
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .banner {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px 40px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 3px solid;
+    border-color: var(--orange);
+    box-shadow: 4px 6px 4px #00000040;
+}
+
+.homepage-desktop .frame-20 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 12px;
+}
+
+.homepage-desktop .text-wrapper-13 {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 700;
+    color: var(--orange);
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .primary-button-2 {
+    justify-content: space-between;
+    display: flex;
+    max-width: 400px;
+    height: 60px;
+    align-items: center;
+    padding: 0px 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--orange);
+    border-radius: 12px;
+}
+
+.homepage-desktop .reach-goals-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 156px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--lightest-blue);
+}
+
+.homepage-desktop .frame-22 {
+    display: flex;
+    flex-direction: column;
+    min-width: 227px;
+    max-width: 420px;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.homepage-desktop .text-wrapper-14 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 700;
+    color: var(--orange);
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .text-wrapper-15 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: var(--text-light);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .pexels-olly {
+    position: relative;
+    width: 100%;
+    max-width: 608.1px;
+    min-width: 375px;
+    object-fit: cover;
+}
+
+.homepage-desktop .testimonials-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 156px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .text-wrapper-16 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 700;
+    color: #434343;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .frame-24 {
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .testimonial {
+    display: flex;
+    flex-direction: column;
+    min-width: 167px;
+    max-width: 800px;
+    min-height: 178px;
+    max-height: 340px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: var(--border-grey);
+}
+
+.homepage-desktop .frame-25 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .star-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/star-icon.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.homepage-desktop .text-wrapper-17 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    font-family: "Nunito", Helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--text-light);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .my-son-did-great-on {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--text-light);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .contact-us-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .contact-us {
+    display: flex;
+    width: 1128px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 107px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--grey);
+    border-radius: 12px;
+}
+
+.homepage-desktop .pexels-julia-m {
+    position: relative;
+    width: 494px;
+    height: 740px;
+    object-fit: cover;
+}
+
+.homepage-desktop .frame-26 {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    align-items: center;
+    gap: 32px;
+    padding: 40px 0px;
+    position: relative;
+    align-self: stretch;
+}
+
+.homepage-desktop .frame-27 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .text-wrapper-18 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 700;
+    color: var(--text-dark);
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .text-wrapper-19 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: var(--text-light);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.homepage-desktop .frame-28 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.homepage-desktop .rectangle {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 50px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: var(--text-light);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 8px 12px;
+    background-color: var(--white);
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: var(--border-grey);
+}
+
+.homepage-desktop .rectangle-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 160px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: var(--text-light);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 8px 12px;
+    background-color: var(--white);
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: var(--border-grey);
+}
+
+textarea {
+    resize: none;
+}
+
+.homepage-desktop .name {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Nunito", Helvetica;
+    font-weight: 400;
+    color: var(--text-light);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.homepage-desktop .button {
+    all: unset;
+    box-sizing: border-box;
+    justify-content: space-around;
+    gap: 10px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding: 0px 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--orange);
+    border-radius: 12px;
+}
+
+.homepage-desktop .footer {
+    display: flex;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--lightest-blue);
+}
+
+/*tablet margins*/
+@media screen and (max-width: 1440px) {
+
+    /*Tutoring services*/
+
+    .homepage-desktop .title-frame {
+        padding: 0px 64px;
+    }
+
+    .homepage-desktop .tutoring-services {
+        padding: 60px 64px;
+    }
+
+    /* Intro section*/
+    .homepage-desktop .intro-section {
+        padding: 0px 64px;
+    }
+
+    /*Ready to reach your academic goals*/
+    .homepage-desktop .reach-goals-section {
+        flex-direction: column;
+        padding: 0px 64px;
+    }
+
+    /*Testimonials*/
+    .homepage-desktop .testimonials-section {
+        padding: 0px 64px;
+    }
+
+}
+
+/*mobile margins*/
+@media screen and (max-width: 1024px) {
+
+    /* Header */
+    .homepage-desktop .header {
+        padding: 0px 16px;
+    }
+
+    /*Tutoring services*/
+
+    .homepage-desktop .title-frame {
+        padding: 0px 16px;
+    }
+
+    .homepage-desktop .tutoring-services {
+        padding: 40px 16px;
+        background-image: url(./img/waterfall-background.jpg);
+    }
+
+    .homepage-desktop .frame-17 {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .homepage-desktop .frame-18 {
+        align-items: center;
+    }
+
+    .homepage-desktop .banner {
+        width: 100%;
+        align-self: center;
+        flex: 0 0 auto;
+    }
+
+    /* Offerings */
+
+    .homepage-desktop .frame-wrapper {
+        width: 1024px;
+    }
+
+    .homepage-desktop .frame-11 {
+        gap: 60px;
+        align-self: stretch;
+        width: 100%;
+        flex-direction: column;
+        flex: 0 0 auto;
+        height: auto;
+    }
+
+    /* Intro section*/
+    .homepage-desktop .intro-section {
+        padding: 0px 16px;
+    }
+
+    .homepage-desktop .frame-6 {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .homepage-desktop .frame-7 {
+        align-items: center;
+        order: 2;
+    }
+
+    /*Ready to reach your academic goals*/
+    .homepage-desktop .reach-goals-section {
+        padding: 0px 16px;
+    }
+
+    .homepage-desktop .frame-22 {
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+        align-self: center;
+    }
+
+    /*Testimonials*/
+
+    .homepage-desktop .testimonials-section {
+        padding: 0px 16px;
+    }
+
+    .homepage-desktop .frame-24 {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    /* Contact us */
+
+    .homepage-desktop .pexels-julia-m {
+        display: none;
+    }
+
+    .homepage-desktop .contact-us-frame {
+        padding: 0px 16px;
+    }
+
+    .homepage-desktop .contact-us {
+        width: 100%;
+        max-width: 430px;
+        align-self: stretch;
+        padding: 0px 0px 0px 0px;
+        justify-content: center;
+    }
+
+    .homepage-desktop .frame-26 {
+        width: auto;
+        padding: 40px 16px;
+        flex: 1;
+        flex-grow: 1;
+    }
+
+    /* Footer */
+    .homepage-desktop .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 8px 16px;
+        height: auto;
+    }
+}
+
+/*waterfall icon*/
+@media screen and (max-width: 480px) {
+    .homepage-desktop .title-frame {
+        flex-direction: column;
+        align-self: center;
+        gap: 20px;
+    }
+}
+
+/*subjects*/
+@media screen and (max-width: 422px) {
+    .homepage-desktop .frame-16 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
