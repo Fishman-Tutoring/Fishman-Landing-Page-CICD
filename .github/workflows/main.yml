@@ -16,7 +16,7 @@ jobs:
   deploy:    
     name: "main branch" 
     if: ${{ github.ref == 'refs/heads/main' }}
-    runs-on: ubuntu-latest'
+    runs-on: ubuntu-latest
     
     steps:
       - run: echo "Checking out repo code onto ubuntu runner"
