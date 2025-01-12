@@ -33,5 +33,5 @@ jobs:
           remote-host: "134.122.122.126"
           remote-user: "github"
           ssh-private-key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-          remote-path: "/var/www/main"
+          remote-path: "/var/www/fishmantutoring.com"
       
