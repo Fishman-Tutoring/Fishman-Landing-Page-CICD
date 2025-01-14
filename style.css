@@ -103,7 +103,7 @@
     align-self: stretch;
     width: 100%;
     flex: 0 0 auto;
-    background-image: url(./img/waterfall-background.jpg);
+    background-image: url(./img/waterfall-background-small.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-blend-mode: darken;
