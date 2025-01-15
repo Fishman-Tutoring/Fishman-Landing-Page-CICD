@@ -946,6 +946,11 @@ textarea {
     background-color: var(--lightest-blue);
 }
 
+.unstyled-link {
+    text-decoration: none; /* Removes underlines */
+    color: inherit;        /* Inherits text color from the parent element */
+  }
+
 /*tablet margins*/
 @media screen and (max-width: 1440px) {
 
