@@ -107,7 +107,7 @@ a:-webkit-any-link{
     align-self: stretch;
     width: 100%;
     flex: 0 0 auto;
-    background-image: url(./img/waterfall-background-small.jpg);
+    background-image: url(./img/waterfall-background.jpg);
     background-size: cover;
     background-position: 50% 50%;
     background-blend-mode: darken;
@@ -1002,7 +1002,7 @@ textarea {
 
     .homepage-desktop .tutoring-services {
         padding: 40px 16px;
-        background-image: url(./img/waterfall-background-small.jpg);
+        background-image: url(./img/waterfall-background-mobile.jpg);
     }
 
     .homepage-desktop .frame-17 {
