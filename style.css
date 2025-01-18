@@ -744,19 +744,6 @@ a:-webkit-any-link{
     background-position: 50% 50%;
 }
 
-.homepage-desktop .text-wrapper-17 {
-    position: relative;
-    flex: 1;
-    align-self: stretch;
-    font-family: "Nunito", Helvetica;
-    font-weight: 500;
-    font-style: italic;
-    color: var(--text-light);
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
 .homepage-desktop .my-son-did-great-on {
     position: relative;
     flex: 1;
