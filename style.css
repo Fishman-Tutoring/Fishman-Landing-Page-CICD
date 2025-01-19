@@ -1,4 +1,17 @@
 /* testing runner for css part 2*/
+
+:root {
+    --blue-primary: rgba(55, 119, 255, 1);
+    --orange: rgba(247, 142, 105, 1);
+    --white: rgba(255, 255, 255, 1);
+    --grey: rgba(249, 249, 249, 1);
+    --border-grey: rgba(218, 218, 218, 1);
+    --text-dark: rgba(67, 67, 67, 1);
+    --text-light: rgba(107, 107, 107, 1);
+    --light-blue: rgba(235, 242, 255, 1);
+    --lightest-blue: rgba(251, 252, 255, 1);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -989,7 +1002,7 @@ textarea {
 
     .homepage-desktop .tutoring-services {
         padding: 40px 16px;
-        background-image: url(./img/waterfall-background.webp);
+        background-image: url(./img/waterfall-background-mobile.webp);
     }
 
     .homepage-desktop .frame-17 {
