@@ -67,17 +67,6 @@ a:-webkit-any-link{
     line-height: normal;
 }
 
-.homepage-desktop .div {
-    position: relative;
-    width: fit-content;
-    font-family: "Nunito", Helvetica;
-    font-weight: 700;
-    color: var(--orange);
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
 .homepage-desktop .frame-3 {
     display: inline-flex;
     flex-direction: column;
@@ -904,21 +893,6 @@ textarea {
     resize: none;
 }
 
-.homepage-desktop .name {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1.00px;
-    font-family: "Nunito", Helvetica;
-    font-weight: 400;
-    color: var(--text-light);
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-    background: transparent;
-    border: none;
-    padding: 0;
-}
-
 .homepage-desktop .button {
     all: unset;
     box-sizing: border-box;
@@ -946,11 +920,6 @@ textarea {
     width: 100%;
     background-color: var(--lightest-blue);
 }
-
-.unstyled-link {
-    text-decoration: none; /* Removes underlines */
-    color: inherit;        /* Inherits text color from the parent element */
-  }
 
 /*tablet margins*/
 @media screen and (max-width: 1440px) {
