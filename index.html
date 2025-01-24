@@ -252,15 +252,28 @@
                         </div>
                         <div class="form-field">
                             <label for="enquiry" class="text-wrapper-19">Enquiry</label>
-                            <textarea type="text" id="enquiry" name="enquiry" placeholder="Enter your message here"
+                            <textarea type="text" id="message" name="enquiry" placeholder="Enter your message here"
                                 class="rectangle-2" required></textarea>
                         </div>
                     </div>
 
-                    <button type="submit" class="button">
+                    <button type="submit" class="button" onclick="sendEmail()">
                         <div class="text-wrapper-7">Send</div>
                     </button>
                 </form>
+                <script>
+                    function sendEmail() {
+                        const name = encodeURIComponent(document.getElementById('name').value);
+                        const email = encodeURIComponent(document.getElementById('email').value);
+                        const message = encodeURIComponent(document.getElementById('message').value);
+
+                        const subject = `Enquiry from ${name}`;
+                        const body = `Name: ${name}%0AEmail: ${email}%0A%0A${message}`;
+
+                        const mailtoLink = `mailto:recipient@example.com?subject=${subject}&body=${body}`;
+                        window.location.href = mailtoLink;
+                    }
+                </script>
             </div>
         </div>
         <footer class="footer">
