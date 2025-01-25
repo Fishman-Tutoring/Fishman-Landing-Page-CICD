@@ -31,7 +31,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <allow-intent href="mailto:*" />
 </head>
 
 <body>
@@ -247,7 +246,7 @@
         <div class="contact-us-frame">
             <div class="contact-us">
                 <img class="pexels-julia-m" src="img/teacher-student.webp" alt="a nova tutor helping their student" />
-                <form id="contactUsForm" class="frame-26">
+                <div id="contactUsForm" class="frame-26">
                     <div class="frame-27">
                         <h2 class="text-wrapper-18">Contact Us</h2>
                         <p class="text-wrapper-4">
@@ -273,10 +272,10 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="button" onclick="sendEmail()">
+                    <a id="sendEmailLink" href="#" class="button" onclick="sendEmail()">
                         <div class="text-wrapper-7">Send</div>
-                    </button>
-                </form>
+                    </a>
+                </div>
                 <script>
                     function sendEmail() {
                         const name = encodeURIComponent(document.getElementById('name').value);
@@ -284,9 +283,14 @@
                         const message = encodeURIComponent(document.getElementById('message').value);
                         const subject = `Fishman Tutoring - Enquiry from ${name}`;
                         const body = `Name: ${name}%0ASender: ${email}%0A%0A${message}`;
-
                         const mailtoLink = `mailto:recipient@example.com?subject=${subject}&body=${body}`;
-                        window.location.href = mailtoLink;
+
+                        // Update the anchor tag href dynamically
+                        const sendEmailLink = document.getElementById('sendEmailLink');
+                        sendEmailLink.href = mailtoLink;
+
+                        // Simulate a click on the updated anchor tag to open the mail client
+                        sendEmailLink.click();
                     }
                 </script>
             </div>
