@@ -282,7 +282,7 @@
                         const email = encodeURIComponent(document.getElementById('email').value);
                         const message = encodeURIComponent(document.getElementById('message').value);
                         const subject = `Fishman Tutoring - Enquiry from ${name}`;
-                        const body = `Name: ${name}%0ASender: ${email}%0A%0A${message}`;
+                        const body = `${message}`;
                         const mailtoLink = `mailto:recipient@example.com?subject=${subject}&body=${body}`;
 
                         // Update the anchor tag href dynamically
